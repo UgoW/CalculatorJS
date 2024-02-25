@@ -10,6 +10,8 @@ This is a simple calculator web application developed by Ugo.
 - Square root (√) function.
 - Constant π (pi) for mathematical calculations.
 - Conversion of expressions to binary.
+- Offset arrow and reset.
+- Percentage Calculation
 - Graphing of mathematical expressions using Chart.js.
 - Dark mode for improved visibility in low-light environments.
 
