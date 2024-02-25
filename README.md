@@ -2,7 +2,7 @@
 
 This is a simple calculator web application developed by Ugo WAREMBOURG CIR2.
 
-![Calculator](https://github.com/UgoW/CalculatorJS/edit/main/img/calculator.png)
+![Calculator](https://github.com/UgoW/CalculatorJS/blob/main/img/Calculator)
 ## Features
 
 - Basic arithmetic operations: addition, subtraction, multiplication, and division.
