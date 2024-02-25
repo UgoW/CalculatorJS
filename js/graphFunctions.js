@@ -74,7 +74,7 @@ function drawGraph() {
             let y = eval(yExpression);
             return {x: x, y: y};
         } else {
-            let yExpression = expression.replace(/\((\d+)\)/g, '(' + x + ')'); 
+            var yExpression = expression.replace(/\((\d+)\)/g, '(' + x + ')'); 
             let y = eval(yExpression);
             return {x: x, y: y};
         }
@@ -84,6 +84,7 @@ function drawGraph() {
         data: {
             labels: xValues,
             datasets: [{
+                label : 'y = ' + expression,
                 data: yValues,
                 borderColor: 'blue',
                 borderWidth: 1,
