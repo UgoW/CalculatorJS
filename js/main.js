@@ -233,3 +233,24 @@ function deleteLast() {
         display.value = display.value.slice(0, -3);
     }
 }
+
+/**
+ * @Function to calculate the percentage of the displayed expression.
+ * Handles errors during calculation.
+ */
+function calculatePercentage() {
+    let expression = document.getElementById('display').value;
+    if (expression === '') return;
+    clearErrors();
+    let result;
+    try {
+        result = eval(prepareExpression(expression)) * 0.01; 
+        result = 'Error';
+        ereur = true;
+    }
+    catch (error) {
+        result = 'Error';
+        ereur = true;
+    }
+    display.value = result;
+}
