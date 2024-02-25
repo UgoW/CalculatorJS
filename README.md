@@ -1,10 +1,13 @@
 # Ugo's Calculator
 
-This is a simple calculator web application developed by Ugo.
+This is a simple calculator web application developed by Ugo WAREMBOURG CIR2.
 
+![Calculator](https://github.com/UgoW/CalculatorJS/edit/main/img/calculator.png)
 ## Features
 
 - Basic arithmetic operations: addition, subtraction, multiplication, and division.
+- Allow users to input numbers (integer or float) by clicking on digit buttons or keyboard.
+-Allow users to input a decimal point.
 - Exponentiation (^) and logarithmic (log) functions.
 - Trigonometric functions: sine, cosine, and tangent.
 - Square root (√) function.
@@ -36,7 +39,8 @@ To use the calculator, simply click on the buttons provided to input numbers and
 
 To run the calculator, simply open the `index.html` file in your web browser. No additional installation or setup is required.
 
-## Credits
+## Credits / infos 
 
 - Ugo: Developer
 - Chart.js: Library used for graphing mathematical expressions.
+- Allocated time : 13 hours 
